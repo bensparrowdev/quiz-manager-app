@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'custom';
+
+html,
+body,
+.App,
+#root {
+    background-color: $background;
+    margin: 0;
+    height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  @include mainFont;
+}
+
+h1 {
+  font-weight: 500;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  @extend h1
+}
+
+a {
+  color: $secondary;
+}
+
+

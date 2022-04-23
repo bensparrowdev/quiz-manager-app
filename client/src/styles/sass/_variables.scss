@@ -1,0 +1,23 @@
+/* VARIABLES */
+
+//Colors
+$primary: #FFAA31;
+$primaryHover: #bc7c23;
+$secondary: #000000;
+$secondaryHover: #232323;
+
+$success: #61BD98;
+$successHover: #488a6f;
+$danger: #EE596A;
+$dangerHover: #be404f;
+$info: #9279CC;
+$infoHover: #6c5a97;
+$light: #ffffff;
+$lightHover: #c6c6c6;
+$background: #ADD8E6;
+
+//Fonts
+@mixin mainFont {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}

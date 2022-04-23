@@ -1,0 +1,105 @@
+@import 'variables';
+
+//Nav
+.nav-link {
+  color: $secondary;
+}
+
+//Backgrounds
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.bg-info {
+  background-color: $info!important;
+}
+
+.bg-success {
+  background-color: $success!important;
+}
+
+.bg-danger {
+  background-color: $danger!important;
+}
+
+.bg-light {
+  background-color: $light !important;
+}
+
+//Buttons
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover {
+    background-color: $primaryHover;
+    border-color: $primaryHover;
+  }
+}
+
+.btn-success {
+  background-color: $success;
+  border-color: $success;
+  &:hover {
+    background-color: $successHover;
+    border-color: $successHover;
+  }
+}
+
+.btn-danger {
+  background-color: $danger;
+  border-color: $danger;
+  &:hover {
+    background-color: $dangerHover;
+    border-color: $dangerHover;
+  }
+}
+
+.btn-info {
+  background-color: $info;
+  border-color: $info;
+  color: $light;
+  &:hover {
+    background-color: $infoHover;
+    border-color: $infoHover;
+    color: $light;
+  }
+}
+
+//Cards
+.card {
+  border-radius: 0.5rem !important;
+}
+
+.card-header:first-child {
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+.category-card {
+  width: 50%;
+  height: 120px;
+}
+
+.playcard--selected {
+  background-color: $primary !important;
+}
+
+//Misc
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.score {
+  font-size: 5rem;
+}
+
+.bar {
+  height: 40px;
+}
+
+.login-card {
+  width: 300px;
+}
