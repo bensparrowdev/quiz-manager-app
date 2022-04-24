@@ -38,6 +38,13 @@
     background-color: $primaryHover;
     border-color: $primaryHover;
   }
+  &:active {
+    @extend .btn-primary;
+  }
+  &:focus {
+    background-color: $primaryHover;
+    border-color: $primaryHover;
+  }
 }
 
 .btn-success {
@@ -47,12 +54,26 @@
     background-color: $successHover;
     border-color: $successHover;
   }
+  &:active {
+    @extend .btn-success;
+  }
+  &:focus {
+    background-color: $successHover;
+    border-color: $successHover;
+  }
 }
 
 .btn-danger {
   background-color: $danger;
   border-color: $danger;
   &:hover {
+    background-color: $dangerHover;
+    border-color: $dangerHover;
+  }
+  &:active {
+    @extend .btn-danger;
+  }
+  &:focus {
     background-color: $dangerHover;
     border-color: $dangerHover;
   }
@@ -66,6 +87,21 @@
     background-color: $infoHover;
     border-color: $infoHover;
     color: $light;
+  }
+  &:active {
+    @extend .btn-info;
+  }
+  &:focus {
+    background-color: $infoHover;
+    border-color: $infoHover;
+    color: $light;
+    box-shadow: 0 0 0 0.25rem #9279cc63;
+  }
+  &:active:focus {
+    background-color: $infoHover;
+    border-color: $infoHover;
+    color: $light;
+    box-shadow: 0 0 0 0.25rem #9279cc63;
   }
 }
 
