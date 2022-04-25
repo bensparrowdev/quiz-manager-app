@@ -108,7 +108,7 @@ export default function Register() {
 							</Col>
 						</Row>
 					</Form>
-					{error.id ? (
+					{error?.id ? (
 						<Alert variant="danger" className="text-center my-2">
 							{errorState.msg}
 						</Alert>
